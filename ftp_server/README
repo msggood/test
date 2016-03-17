@@ -1,0 +1,3 @@
+ftp.cfg  => /etc/
+ftp_server start|stop|restop
+libcrypt-2.16.so => /lib

@@ -1,0 +1,99 @@
+关于Ftp协议；
+
+Ftp命令；
+
+Ftp返回值；
+
+Ftp编程结构；
+
+
+
+关于Ftp协议：
+
+关于Ftp协议，我想都大概了解，所以不做说明了。以下是RPC959的介绍：
+
+The objectives of FTP are 1) to promote sharing of files (computer
+
+programs and/or data), 2) to encourage indirect or implicit (via
+
+programs) use of remote computers, 3) to shield a user from
+
+variations in file storage systems among hosts, and 4) to transfer
+
+data reliably and efficiently. FTP, though usable directly by a user
+
+at a terminal, is designed mainly for use by programs.
+
+
+
+Ftp命令：
+
+也许很多人都用过Ftp命令，但是可能也有许多人和我曾经犯一样的错误，错认了Ftp命令。我原来在win2000的控制台下打上Ftp，然后进入了Ftp提示符下，接着我用上了许多符有“windows”特色的命令，如“dir”，“cd”，看到它按照自己的想法在运行，以为自己便掌握了Ftp 命令了。我非常有信心的打开编程工具，写一个socket，然后向ftp服务器连接了。当然，服务器返回了信息提示是连接成功了，我便开始发送刚才用过的一些命令，可返回的信息大多都是“500 'xx': command not understood”。最后，我发送了help命令，返回的结果让我惊异不已，里面的命令大多我都没用过。原来这些才是真正的Ftp命令。Windows里面的只是Ftp的客户端工具，里面的命令根本不是Ftp命令。网上有许多资料里也是把windows里Ftp客户端的命令和Ftp命令混在一起。真正的Ftp命令应参考 RFC959文档中的说明（其实一些Ftp工具如CuteFtp里也把命令显示出来）。其中经常被使用的命令包括如下：
+
+ABOR：中止；
+
+CWD 目录名：改变现有目录；
+
+CDUP：返回到父级目录；
+
+REIN：重新初始化服务器状态；
+
+QUIT：退出；
+
+PORT：设置数据传输端口；
+
+PASV：转为被动方式
+
+TYPE A/I：传输方式；
+
+MODE S/B/C：传输方式？；
+
+RETR 文件名：下载文件；
+
+STOR 文件名：上传文件；
+
+APPEND 追加本地文件到服务器；
+
+RNFR：修改原文件名（修改之前的文件名）
+
+RNTO：修改后的文件名；
+
+DELE 文件名：删除文件；
+
+RMD 目录夹：删除文件夹；
+
+MKD 目录：新建目录；
+
+PWD 当前工作目录；
+
+LIST：列出该目录中的项目；
+
+SYST：查看服务器操作系统信息；
+
+STAT查看Ftp参数状态；
+
+
+
+Ftp命令的返回值：
+
+每一个Ftp发送之后，Ftp服务器都会返回一个字符串，其中包括一个返回代码和一串说明信息。这个返回码主要是用于判断命令是否被成功执行了。除此之外，还有一个非常重要的命令的返回。当发送PASV之后，返回“227 Entering Passive Mode (127,0,0,1,4,18)”。这意味着在服务器上有一个端口被开放，他将为我们后面接着的数据传输作好准备，但是我们如何知道该端口号呢，就在 (127,0,0,1,4,18)中，前面四位指服务器的地址，关键是最后两位，将最后第二位乘256再加上最后一位的值就是我们的端口号，也就是 4*256+18。取得端口号之后我们就可以用socket连接到这里。这为我们后面的工作作好准备了，因为我们的取得列表，上传，下载文件都要依靠它来实现。常用的返回如下：
+
+125 Data connection already open; Transfer starting.
+
+226 Transfer complete.
+
+227 Entering Passive Mode (127,0,0,1,4,18).
+
+230 User xxxxx logged in.
+
+331 Password required for xxxxx.
+
+425 Can’t open data connection.
+
+226 Closing data connection.
+
+
+
+Ftp客户端编程结构：
+
+前面已提到了Ftp命令及其响应信息。其实我们做Ftp客户端工具只不过是用一个winsocket连接上Ftp服务器，然后象其发送命令。在这个过程中，我们依靠发送——响应的机制。即发送Ftp命令——接收返回的响应信息——分析该信息——执行相关操作——发送下一条命令。在一般意义上，有一个socket用来连接Ftp服务器的相关端口（如默认的21），它负责Ftp命令的发送和接收返回的响应信息。一些操作如“进入目录”，“删除文件”，依靠这个socket发送一条命令就可完成了。然而对于有数据传输的操作，主要是显示远端目录列表，上传、下载文件，我们不得不依靠另一个socket来完成。在进行这种操作之前，必须发送PASV命令，它返回了227开头的信息，在括号中有以逗号隔开的六个数字，前四个指服务器的地址，关键是最后两个，将倒数第二个乘256再加上最后一个数字，其结果就是Ftp服务器开放的用于下一条命令来进行数据传输的端口。如我们得到227 Entering Passive Mode (127,0,0,1,4,18)，那么端口号是4*256+18=1042。我们用一个socket来连接这个端口，之后，我们可根据具体的操作（显示目录LIST，上传文件STOR，下载RETR）来发送命令。返回的响应代码为125开头，也就是连接打开了，可以开始传输数据，这时就可用socket 的发送或接收方法来传输数据。完成之后，服务器会返回代码226 Transfer complete，表明数据传输完成。值得注意的是，我们最好不要一次发送多条命令，例如我们要回到上层目录并且显示这个目录，我们得发送CDUP， PASV，LIST，我们不能一下子发送：CDUP\r\n, PASV\r\n, LIST\r\n。而是发送完CDUP之后等待其响应代码，然后再发送后面一条。当PASV返回之后，我们打开另一个socket连接到相关端口上。然后发送LIST，返回 125之后在开始接收数据，最后返回226表明完成。对于上传和下载也是差不多的过程（下载之前要先取得文件的大小）。 

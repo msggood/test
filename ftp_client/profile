@@ -1,0 +1,8 @@
+# /etc/profile: system-wide .profile file for the Bourne shells
+
+export LD_LIBRARY_PATH=/appfs/lib:$LD_LIBRARY_PATH
+echo
+echo -n "Processing /etc/profile... "
+# no-op
+echo "Done"
+echo
