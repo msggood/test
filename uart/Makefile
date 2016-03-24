@@ -1,4 +1,4 @@
-CC=mips-linux-gnu-gcc
+CC=gcc
 TARGETS= uart0
 
 all:$(TARGETS)
