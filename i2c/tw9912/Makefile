@@ -1,9 +1,9 @@
 CC = mips-linux-gnu-gcc
-TARGETS= i2c_test
+TARGETS= i2c_tw9912
 
 all:$(TARGETS)
 
-camera_test: i2c_test.o
+camera_test: i2c_tw9912.o
 	$(CC) -o $@ $^ 
 
 #%.o:%.c
