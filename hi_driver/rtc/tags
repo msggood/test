@@ -1,0 +1,160 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASC2NUM	rtc_test.c	66;"	d	file:
+BIT_TEMP_SRST_REQ	hi_rtc.c	70;"	d	file:
+CRG_BASE_ADDR	hi_rtc.c	68;"	d	file:
+FREQ_MAX_VAL	hi_rtc.c	162;"	d	file:
+FREQ_MIN_VAL	hi_rtc.c	163;"	d	file:
+HEXASC2NUM	rtc_test.c	67;"	d	file:
+HI_ERR	hi_rtc.c	56;"	d	file:
+HI_MSG	hi_rtc.c	46;"	d	file:
+HI_MSG	hi_rtc.c	53;"	d	file:
+HI_RTC_AIE_OFF	hi_rtc.h	44;"	d
+HI_RTC_AIE_ON	hi_rtc.h	43;"	d
+HI_RTC_ALM_READ	hi_rtc.h	53;"	d
+HI_RTC_ALM_SET	hi_rtc.h	52;"	d
+HI_RTC_COMP_OFF	hi_rtc.h	47;"	d
+HI_RTC_COMP_ON	hi_rtc.h	46;"	d
+HI_RTC_GET_FREQ	hi_rtc.h	49;"	d
+HI_RTC_GET_TEMP	hi_rtc.h	61;"	d
+HI_RTC_RD_TIME	hi_rtc.h	54;"	d
+HI_RTC_REG_READ	hi_rtc.h	58;"	d
+HI_RTC_REG_SET	hi_rtc.h	57;"	d
+HI_RTC_RESET	hi_rtc.h	56;"	d
+HI_RTC_SET_FREQ	hi_rtc.h	50;"	d
+HI_RTC_SET_TEMP_MODE	hi_rtc.h	60;"	d
+HI_RTC_SET_TIME	hi_rtc.h	55;"	d
+INTERNAL_TEMP	hi_rtc.c	148;"	d	file:
+LUT1	hi_rtc.c	150;"	d	file:
+NORMAL_TEMP_VALUE	hi_rtc.c	155;"	d	file:
+OSDRV_MODULE_VERSION_STRING	hi_rtc.c	63;"	d	file:
+OUTSIDE_TEMP	hi_rtc.c	147;"	d	file:
+PERI_CRG57	hi_rtc.c	69;"	d	file:
+RETRY_CNT	hi_rtc.c	160;"	d	file:
+RTC_10MS_COUN	hi_rtc.c	112;"	d	file:
+RTC_ANA_CTRL	hi_rtc.c	143;"	d	file:
+RTC_CLK	hi_rtc.c	140;"	d	file:
+RTC_D_COUNT_H	hi_rtc.c	117;"	d	file:
+RTC_D_COUNT_L	hi_rtc.c	116;"	d	file:
+RTC_FREQ_H	hi_rtc.c	152;"	d	file:
+RTC_FREQ_L	hi_rtc.c	153;"	d	file:
+RTC_H_COUNT	hi_rtc.c	115;"	d	file:
+RTC_IMSC	hi_rtc.c	135;"	d	file:
+RTC_INT_CLR	hi_rtc.c	136;"	d	file:
+RTC_INT_MASK	hi_rtc.c	137;"	d	file:
+RTC_INT_RAW	hi_rtc.c	138;"	d	file:
+RTC_IRQ	hi_rtc.c	109;"	d	file:
+RTC_LORD	hi_rtc.c	133;"	d	file:
+RTC_LR_10MS	hi_rtc.c	126;"	d	file:
+RTC_LR_D_H	hi_rtc.c	131;"	d	file:
+RTC_LR_D_L	hi_rtc.c	130;"	d	file:
+RTC_LR_H	hi_rtc.c	129;"	d	file:
+RTC_LR_M	hi_rtc.c	128;"	d	file:
+RTC_LR_S	hi_rtc.c	127;"	d	file:
+RTC_MR_10MS	hi_rtc.c	119;"	d	file:
+RTC_MR_D_H	hi_rtc.c	124;"	d	file:
+RTC_MR_D_L	hi_rtc.c	123;"	d	file:
+RTC_MR_H	hi_rtc.c	122;"	d	file:
+RTC_MR_M	hi_rtc.c	121;"	d	file:
+RTC_MR_S	hi_rtc.c	120;"	d	file:
+RTC_M_COUNT	hi_rtc.c	114;"	d	file:
+RTC_NAME	hi_rtc.c	42;"	d	file:
+RTC_POR_N	hi_rtc.c	141;"	d	file:
+RTC_SAR_CTRL	hi_rtc.c	142;"	d	file:
+RTC_SPI_BASE_ADDR	hi_rtc.c	73;"	d	file:
+RTC_S_COUNT	hi_rtc.c	113;"	d	file:
+RTC_TEMP_CRC	hi_rtc.c	79;"	d	file:
+RTC_TEMP_INT_CLEAR	hi_rtc.c	81;"	d	file:
+RTC_TEMP_INT_MASK	hi_rtc.c	80;"	d	file:
+RTC_TEMP_INT_RAW	hi_rtc.c	83;"	d	file:
+RTC_TEMP_INT_STAT	hi_rtc.c	84;"	d	file:
+RTC_TEMP_IRQ_NUM	hi_rtc.c	87;"	d	file:
+RTC_TEMP_START	hi_rtc.c	78;"	d	file:
+RTC_TEMP_STAT	hi_rtc.c	82;"	d	file:
+RTC_TEMP_VAL	hi_rtc.c	85;"	d	file:
+SPI_CLK_DIV	hi_rtc.c	74;"	d	file:
+SPI_READ	hi_rtc.c	107;"	d	file:
+SPI_RW	hi_rtc.c	75;"	d	file:
+SPI_WRITE	hi_rtc.c	106;"	d	file:
+TEMP_ENV_OFFSET	hi_rtc.c	158;"	d	file:
+TEMP_OFFSET_TO_RTC	hi_rtc.c	159;"	d	file:
+TEMP_OFFSET	hi_rtc.c	146;"	d	file:
+TEMP_SEL_FIXMODE	hi_rtc.h	/^	TEMP_SEL_FIXMODE  = 0,$/;"	e	enum:temp_sel_mode
+TEMP_SEL_INTERNAL	hi_rtc.h	/^	TEMP_SEL_INTERNAL,$/;"	e	enum:temp_sel_mode
+TEMP_SEL_OUTSIDE	hi_rtc.h	/^	TEMP_SEL_OUTSIDE,$/;"	e	enum:temp_sel_mode
+TEMP_SEL	hi_rtc.c	149;"	d	file:
+TEMP_TO_RTC	hi_rtc.c	156;"	d	file:
+TOT_OFFSET_H	hi_rtc.c	145;"	d	file:
+TOT_OFFSET_L	hi_rtc.c	144;"	d	file:
+U_SPI_RW	hi_rtc.c	/^} U_SPI_RW;$/;"	t	typeref:union:__anon1	file:
+__HI_RTC__	hi_rtc.h	11;"	d
+__RTC_TEMP_LUT_TBL_H__	rtc_temp_lut_tbl.h	2;"	d
+__this_module	hi_rtc.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	hi_rtc.mod.c	/^__used$/;"	v	file:
+_atoul	rtc_test.c	/^static int _atoul(const char *str, unsigned char *pvalue)$/;"	f	file:
+_atoulx	rtc_test.c	/^static int  _atoulx(const char *str, unsigned char *pvalue)$/;"	f	file:
+bits	hi_rtc.c	/^    } bits;$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2	file:
+date	hi_rtc.h	/^        unsigned int  date;$/;"	m	struct:__anon3
+freq_l	hi_rtc.h	/^	unsigned int freq_l;$/;"	m	struct:__anon6
+hi_rtc_fops	hi_rtc.c	/^static struct file_operations hi_rtc_fops =$/;"	v	typeref:struct:file_operations	file:
+hi_rtc_ioctl	hi_rtc.c	/^static long hi_rtc_ioctl(struct file* file,$/;"	f	file:
+hi_rtc_open	hi_rtc.c	/^static int hi_rtc_open(struct inode* inode, struct file* filp)$/;"	f	file:
+hi_rtc_release	hi_rtc.c	/^static int hi_rtc_release(struct inode* inode, struct file* file)$/;"	f	file:
+hirtc_get_alarm	hi_rtc.c	/^static int hirtc_get_alarm(rtc_time_t* compositetime)$/;"	f	file:
+hirtc_get_time	hi_rtc.c	/^static int hirtc_get_time(rtc_time_t* compositetime)$/;"	f	file:
+hirtc_set_alarm	hi_rtc.c	/^static int hirtc_set_alarm(rtc_time_t compositetime)$/;"	f	file:
+hirtc_set_time	hi_rtc.c	/^static int hirtc_set_time(rtc_time_t compositetime)$/;"	f	file:
+hour	hi_rtc.h	/^        unsigned int  hour;$/;"	m	struct:__anon3
+is_comp_off	hi_rtc.c	/^static int is_comp_off = 0;$/;"	v	file:
+main	rtc_test.c	/^int main(int argc, const char *argv[])$/;"	f
+minute	hi_rtc.h	/^        unsigned int  minute;$/;"	m	struct:__anon3
+mode	hi_rtc.h	/^	temp_sel_mode mode;$/;"	m	struct:__anon5
+mode	hi_rtc.c	/^static enum temp_sel_mode mode = TEMP_SEL_FIXMODE;$/;"	v	typeref:enum:temp_sel_mode	file:
+month	hi_rtc.h	/^        unsigned int  month;$/;"	m	struct:__anon3
+parse_string	rtc_test.c	/^static int parse_string(char *string, rtc_time_t *p_tm)$/;"	f	file:
+reg_data_t	hi_rtc.h	/^} reg_data_t;$/;"	t	typeref:struct:__anon4
+reg_temp_mode_t	hi_rtc.h	/^} reg_temp_mode_t; $/;"	t	typeref:struct:__anon5
+reg	hi_rtc.h	/^	unsigned char reg;$/;"	m	struct:__anon4
+reserved	hi_rtc.c	/^        unsigned int reserved		: 6; \/* [30:25] *\/$/;"	m	struct:__anon1::__anon2	file:
+rtcSecond2Date	hi_rtc.c	/^static int rtcSecond2Date(rtc_time_t* compositetime,$/;"	f	file:
+rtc_alm_interrupt	hi_rtc.c	/^static irqreturn_t rtc_alm_interrupt(int irq, void* dev_id)$/;"	f	file:
+rtc_char_driver	hi_rtc.c	/^static struct miscdevice rtc_char_driver =$/;"	v	typeref:struct:miscdevice	file:
+rtc_exit	hi_rtc.c	/^static void __exit rtc_exit(void)$/;"	f	file:
+rtc_exit	hi_rtc.c	/^module_exit(rtc_exit);$/;"	v
+rtc_freq_t	hi_rtc.h	/^} rtc_freq_t;$/;"	t	typeref:struct:__anon6
+rtc_init	hi_rtc.c	/^static int __init rtc_init(void)$/;"	f	file:
+rtc_init	hi_rtc.c	/^module_init(rtc_init);$/;"	v
+rtc_reset_first	hi_rtc.c	/^static int rtc_reset_first(void)$/;"	f	file:
+rtc_temperature_interrupt	hi_rtc.c	/^static irqreturn_t rtc_temperature_interrupt(int irq, void* dev_id)$/;"	f	file:
+rtc_time_t	hi_rtc.h	/^} rtc_time_t;$/;"	t	typeref:struct:__anon3
+rtcdate2second	hi_rtc.c	/^static int rtcdate2second(rtc_time_t compositetime,$/;"	f	file:
+second	hi_rtc.h	/^        unsigned int  second;$/;"	m	struct:__anon3
+set_temperature	hi_rtc.c	/^static void set_temperature(void)$/;"	f	file:
+spi_addr	hi_rtc.c	/^        unsigned int spi_addr		: 7; \/* [22:16] *\/$/;"	m	struct:__anon1::__anon2	file:
+spi_busy	hi_rtc.c	/^        unsigned int spi_busy		: 1; \/* [31] *\/$/;"	m	struct:__anon1::__anon2	file:
+spi_rdata	hi_rtc.c	/^        unsigned int spi_rdata		: 8; \/* [15:8] *\/$/;"	m	struct:__anon1::__anon2	file:
+spi_read	hi_rtc.c	/^static int spi_read(char reg, char* val)$/;"	f	file:
+spi_rtc_read	hi_rtc.c	/^static int spi_rtc_read(char reg, char* val)$/;"	f	file:
+spi_rtc_write	hi_rtc.c	/^static int spi_rtc_write(char reg, char val)$/;"	f	file:
+spi_rw	hi_rtc.c	/^        unsigned int spi_rw		    : 1; \/* [23] *\/$/;"	m	struct:__anon1::__anon2	file:
+spi_start	hi_rtc.c	/^        unsigned int spi_start		: 1; \/* [24] *\/$/;"	m	struct:__anon1::__anon2	file:
+spi_wdata	hi_rtc.c	/^        unsigned int spi_wdata		: 8; \/* [7:0] *\/$/;"	m	struct:__anon1::__anon2	file:
+spi_write	hi_rtc.c	/^static int spi_write(char reg, char val)$/;"	f	file:
+str_to_num	rtc_test.c	/^static int str_to_num(const char *str, unsigned char *pvalue)$/;"	f	file:
+t_second	hi_rtc.c	/^static int t_second = 5;$/;"	v	file:
+temp_crg_reset	hi_rtc.c	/^static int temp_crg_reset(void)$/;"	f	file:
+temp_lut_table	rtc_temp_lut_tbl.h	/^const char temp_lut_table[50] = {$/;"	v
+temp_sel_mode	hi_rtc.h	/^typedef enum temp_sel_mode {$/;"	g
+temp_sel_mode	hi_rtc.h	/^} temp_sel_mode;$/;"	t	typeref:enum:temp_sel_mode
+temperature_detection	hi_rtc.c	/^static void temperature_detection(unsigned long arg)$/;"	f	file:
+temperature_timer	hi_rtc.c	/^static struct timer_list temperature_timer;$/;"	v	typeref:struct:timer_list	file:
+u32	hi_rtc.c	/^    unsigned int u32;$/;"	m	union:__anon1	file:
+usage	rtc_test.c	/^void usage(void)$/;"	f
+val	hi_rtc.h	/^	unsigned char val;$/;"	m	struct:__anon4
+value	hi_rtc.h	/^	int value;$/;"	m	struct:__anon5
+weekday	hi_rtc.h	/^        unsigned int  weekday;$/;"	m	struct:__anon3
+year	hi_rtc.h	/^        unsigned int  year;$/;"	m	struct:__anon3

@@ -1,0 +1,6 @@
+syn keyword CTagsStructure regval_list
+syn keyword CTagsMember value reg_num
+syn keyword CTagsGlobalVariable tw9912_init_regs_640_480
+syn keyword CTagsFunction help main read write write_array
+syn keyword CTagsDefinedName L_REG CHIP CHIP_ADDR TW9912_REG_END TW9912_REG_DELAY H_REG
+

@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CHIP_ADDR	camera_test.c	8;"	d	file:
+CHIP_ADDR	i2c_test.c	10;"	d	file:
+CHIP_ADDR	tw9912/i2c_tw9912.c	10;"	d	file:
+CHIP	camera_test.c	7;"	d	file:
+CHIP	i2c_test.c	9;"	d	file:
+CHIP	tw9912/i2c_tw9912.c	9;"	d	file:
+H_REG	camera_test.c	9;"	d	file:
+L_REG	camera_test.c	10;"	d	file:
+TW9912_REG_DELAY	tw9912/i2c_tw9912.c	12;"	d	file:
+TW9912_REG_END	tw9912/i2c_tw9912.c	11;"	d	file:
+help	i2c_test.c	/^void help()$/;"	f
+help	tw9912/i2c_tw9912.c	/^void help()$/;"	f
+main	camera_test.c	/^int main(int argc,char *argv[])$/;"	f
+main	i2c_test.c	/^int main(int argc,char *argv[])$/;"	f
+main	tw9912/i2c_tw9912.c	/^int main(int argc,char *argv[])$/;"	f
+read	i2c_test.c	/^int read(int fd,unsigned char reg,unsigned char* data)$/;"	f
+read	tw9912/i2c_tw9912.c	/^int read(int fd,unsigned char reg,unsigned char* data)$/;"	f
+reg_num	tw9912/i2c_tw9912.c	/^	unsigned char reg_num;$/;"	m	struct:regval_list	file:
+regval_list	tw9912/i2c_tw9912.c	/^struct regval_list {$/;"	s	file:
+tw9912_init_regs_640_480	tw9912/i2c_tw9912.c	/^static struct regval_list tw9912_init_regs_640_480[] = $/;"	v	typeref:struct:regval_list	file:
+value	tw9912/i2c_tw9912.c	/^	unsigned char value;$/;"	m	struct:regval_list	file:
+write_array	tw9912/i2c_tw9912.c	/^static int write_array(int fd , struct regval_list *vals)$/;"	f	file:
+write	i2c_test.c	/^int write(int fd,unsigned char reg,unsigned char data)$/;"	f
+write	tw9912/i2c_tw9912.c	/^int write(int fd,unsigned char reg,unsigned char data)$/;"	f

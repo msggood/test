@@ -1,0 +1,6 @@
+syn keyword CTagsStructure his_adc_driver
+syn keyword CTagsMember adc_file adc_reg_base flag irq_wait
+syn keyword CTagsGlobalVariable __this_module adc_proc_name his_adc __used hisi_exit_adc hisi_init_adc
+syn keyword CTagsFunction hisi_init_adc hisi_adc_proc_read read_channel hisi_exit_adc
+syn keyword CTagsDefinedName ADC_INT_STATUS ADC_TIME_SCAN CHANNEL_SEL ADC_START ADC_ACTIVE_BIT DEGLITCH_BYPASS ADC_IRQ_DISABLE SUPPORT_CHANNEL ADC_INT_MASK ADC_GLITCH_SAMPEL ADC_DATA_MASK ADC_RESET ADC_POWER_ENABLE TIME_OUT ADC_CLK_ENABLE MUX_BASE ADC_STOP ADC_INT_CLR ADC_IRQ_ENABLE MODEL_SEL PERI_CRG32_BASE SAR_ADC_BASE ADC_IRQ ADC_ZERO_MASK POWER_DOWN_MODE ADC_CTRL
+

@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADC_ACTIVE_BIT	adc.c	60;"	d	file:
+ADC_CLK_ENABLE	adc.c	54;"	d	file:
+ADC_CTRL	adc.c	41;"	d	file:
+ADC_DATA_MASK	adc.c	44;"	d	file:
+ADC_GLITCH_SAMPEL	adc.c	42;"	d	file:
+ADC_INT_CLR	adc.c	47;"	d	file:
+ADC_INT_MASK	adc.c	45;"	d	file:
+ADC_INT_STATUS	adc.c	46;"	d	file:
+ADC_IRQ_DISABLE	adc.c	52;"	d	file:
+ADC_IRQ_ENABLE	adc.c	51;"	d	file:
+ADC_IRQ	adc.c	35;"	d	file:
+ADC_POWER_ENABLE	adc.c	56;"	d	file:
+ADC_RESET	adc.c	62;"	d	file:
+ADC_START	adc.c	48;"	d	file:
+ADC_STOP	adc.c	49;"	d	file:
+ADC_TIME_SCAN	adc.c	43;"	d	file:
+ADC_ZERO_MASK	adc.c	66;"	d	file:
+CHANNEL_SEL	adc.c	65;"	d	file:
+DEGLITCH_BYPASS	adc.c	61;"	d	file:
+MODEL_SEL	adc.c	64;"	d	file:
+MUX_BASE	adc.c	165;"	d	file:
+PERI_CRG32_BASE	adc.c	39;"	d	file:
+POWER_DOWN_MODE	adc.c	63;"	d	file:
+SAR_ADC_BASE	adc.c	38;"	d	file:
+SUPPORT_CHANNEL	adc.c	36;"	d	file:
+TIME_OUT	adc.c	57;"	d	file:
+__this_module	adc.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	adc.mod.c	/^__used$/;"	v	file:
+adc_file	adc.c	/^    struct proc_dir_entry  *adc_file;$/;"	m	struct:his_adc_driver	typeref:struct:his_adc_driver::proc_dir_entry	file:
+adc_proc_name	adc.c	/^static char *adc_proc_name = "sar_adc";$/;"	v	file:
+adc_reg_base	adc.c	/^    void __iomem           *adc_reg_base;$/;"	m	struct:his_adc_driver	file:
+flag	adc.c	/^    int                    flag;$/;"	m	struct:his_adc_driver	file:
+his_adc_driver	adc.c	/^struct his_adc_driver{$/;"	s	file:
+his_adc	adc.c	/^static struct his_adc_driver his_adc;$/;"	v	typeref:struct:his_adc_driver	file:
+hisi_adc_proc_read	adc.c	/^static int hisi_adc_proc_read(char *page, char **start,$/;"	f	file:
+hisi_exit_adc	adc.c	/^void hisi_exit_adc(void)$/;"	f
+hisi_exit_adc	adc.c	/^module_exit(hisi_exit_adc);$/;"	v
+hisi_init_adc	adc.c	/^int hisi_init_adc(void)$/;"	f
+hisi_init_adc	adc.c	/^module_init(hisi_init_adc);$/;"	v
+irq_wait	adc.c	/^    wait_queue_head_t      irq_wait;$/;"	m	struct:his_adc_driver	file:
+read_channel	adc.c	/^int read_channel(int channel)$/;"	f

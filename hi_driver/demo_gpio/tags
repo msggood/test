@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEVICE_NAME	gpio.c	17;"	d	file:
+GPIO_BASE	gpio.c	93;"	d	file:
+MUX_BASE	gpio.c	94;"	d	file:
+__this_module	gpio.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	gpio.mod.c	/^__used$/;"	v	file:
+dev_fops	gpio.c	/^static struct file_operations dev_fops = {$/;"	v	typeref:struct:file_operations	file:
+gpio_close	gpio.c	/^static int gpio_close(struct inode *inode,struct file *file)$/;"	f	file:
+gpio_exit	gpio.c	/^static void __exit gpio_exit(void)$/;"	f	file:
+gpio_exit	gpio.c	/^module_exit(gpio_exit);$/;"	v
+gpio_init	gpio.c	/^static int __init gpio_init(void)$/;"	f	file:
+gpio_init	gpio.c	/^module_init(gpio_init);$/;"	v
+gpio_input	gpio.c	/^static void gpio_input(unsigned int gpio_group,unsigned int gpio_offset)$/;"	f	file:
+gpio_ioctl	gpio.c	/^static long gpio_ioctl(struct file *file, unsigned int cmd , unsigned long arg)$/;"	f	file:
+gpio_open	gpio.c	/^static int gpio_open(struct inode *inode,struct file *file)$/;"	f	file:
+gpio_ouput	gpio.c	/^static void gpio_ouput(unsigned int gpio_group,unsigned int gpio_offset,unsigned int value)$/;"	f	file:
+gpio_poll	gpio.c	/^static unsigned int gpio_poll(struct file *file,struct poll_table_struct *wait)$/;"	f	file:
+gpio_read	gpio.c	/^static int gpio_read(struct file *filp,char __user *buff,size_t count,loff_t *offp)$/;"	f	file:
+icut_timeout	gpio.c	/^static void icut_timeout(unsigned long data)$/;"	f	file:
+misc	gpio.c	/^static struct miscdevice misc = {$/;"	v	typeref:struct:miscdevice	file:
+timer	gpio.c	/^static struct timer_list timer;$/;"	v	typeref:struct:timer_list	file:

@@ -1,0 +1,4 @@
+syn keyword CTagsGlobalVariable misc gpio_init __this_module gpio_exit dev_fops __used timer
+syn keyword CTagsFunction gpio_close gpio_open gpio_input gpio_init gpio_exit gpio_poll gpio_read gpio_ouput icut_timeout gpio_ioctl
+syn keyword CTagsDefinedName DEVICE_NAME GPIO_BASE MUX_BASE
+

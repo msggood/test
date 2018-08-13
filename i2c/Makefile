@@ -1,4 +1,5 @@
-CC = mips-linux-gnu-gcc
+#CC = mips-linux-gnu-gcc
+CC = arm-hisiv300-linux-gcc
 TARGETS= i2c_test
 
 all:$(TARGETS)

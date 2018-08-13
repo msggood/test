@@ -1,0 +1,208 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ChangDir	Ftpcomd.c	/^int ChangDir(char *n_dir)\/\/¸Ä±ä¹¤×÷Ä¿Â¼$/;"	f
+Cmd_operater	Ftpcomd.c	/^int Cmd_operater(int sockd)$/;"	f
+CreateDaemon	Service.c	/^void CreateDaemon()$/;"	f
+FTPCMD	Ftpcomd.h	/^} FTPCMD;$/;"	t	typeref:struct:_FTPCMD
+FTP_ABOROK	Ftpcomd.h	79;"	d
+FTP_ABOR_NOCONN	Ftpcomd.h	77;"	d
+FTP_ALLOOK	Ftpcomd.h	65;"	d
+FTP_AUTHOK	Ftpcomd.h	83;"	d
+FTP_BADAUTH	Ftpcomd.h	114;"	d
+FTP_BADCMD	Ftpcomd.h	105;"	d
+FTP_BADMODE	Ftpcomd.h	113;"	d
+FTP_BADOPTS	Ftpcomd.h	106;"	d
+FTP_BADPBSZ	Ftpcomd.h	110;"	d
+FTP_BADPROT	Ftpcomd.h	111;"	d
+FTP_BADSENDCONN	Ftpcomd.h	101;"	d
+FTP_BADSENDFILE	Ftpcomd.h	103;"	d
+FTP_BADSENDNET	Ftpcomd.h	102;"	d
+FTP_BADSTRU	Ftpcomd.h	112;"	d
+FTP_CHMODOK	Ftpcomd.h	59;"	d
+FTP_COMMANDNOTIMPL	Ftpcomd.h	107;"	d
+FTP_CWDOK	Ftpcomd.h	84;"	d
+FTP_DATATLSBAD	Ftpcomd.h	118;"	d
+FTP_DATA_TIMEOUT	Ftpcomd.h	96;"	d
+FTP_DELEOK	Ftpcomd.h	86;"	d
+FTP_EPRTOK	Ftpcomd.h	57;"	d
+FTP_EPSVALLOK	Ftpcomd.h	60;"	d
+FTP_EPSVBAD	Ftpcomd.h	117;"	d
+FTP_EPSVOK	Ftpcomd.h	81;"	d
+FTP_FEAT	Ftpcomd.h	66;"	d
+FTP_FILEFAIL	Ftpcomd.h	121;"	d
+FTP_GIVEPWORD	Ftpcomd.h	91;"	d
+FTP_GOODBYE	Ftpcomd.h	76;"	d
+FTP_GRIVEUSER	Ftpcomd.h	75;"	d
+FTP_HELP	Ftpcomd.h	72;"	d
+FTP_IDLE_TIMEOUT	Ftpcomd.h	95;"	d
+FTP_INCORRECT	Ftpcomd.h	119;"	d
+FTP_IP_DENY	Ftpcomd.h	99;"	d
+FTP_IP_LIMIT	Ftpcomd.h	98;"	d
+FTP_LISTDATA	Ftpcomd.h	53;"	d
+FTP_LOGINOK	Ftpcomd.h	82;"	d
+FTP_MDTMOK	Ftpcomd.h	69;"	d
+FTP_MKDIROK	Ftpcomd.h	89;"	d
+FTP_MODEOK	Ftpcomd.h	62;"	d
+FTP_NEEDENCRYPT	Ftpcomd.h	116;"	d
+FTP_NEEDRNFR	Ftpcomd.h	109;"	d
+FTP_NEEDUSER	Ftpcomd.h	108;"	d
+FTP_NOHANDLEPROT	Ftpcomd.h	120;"	d
+FTP_NOOPOK	Ftpcomd.h	54;"	d
+FTP_NOPERM	Ftpcomd.h	122;"	d
+FTP_NOSUCHPROT	Ftpcomd.h	115;"	d
+FTP_PASVOK	Ftpcomd.h	80;"	d
+FTP_PBSZOK	Ftpcomd.h	63;"	d
+FTP_PORTOK	Ftpcomd.h	56;"	d
+FTP_PROTOK	Ftpcomd.h	64;"	d
+FTP_PWDOK	Ftpcomd.h	88;"	d
+FTP_RENAMEOK	Ftpcomd.h	87;"	d
+FTP_RESTOK	Ftpcomd.h	92;"	d
+FTP_RMDIROK	Ftpcomd.h	85;"	d
+FTP_RNFROK	Ftpcomd.h	93;"	d
+FTP_SITEHELP	Ftpcomd.h	71;"	d
+FTP_SIZEOK	Ftpcomd.h	68;"	d
+FTP_STATFILE_OK	Ftpcomd.h	70;"	d
+FTP_STATOK	Ftpcomd.h	67;"	d
+FTP_STRUOK	Ftpcomd.h	61;"	d
+FTP_SYSTOK	Ftpcomd.h	73;"	d
+FTP_TLS_FAIL	Ftpcomd.h	100;"	d
+FTP_TOO_MANY_USERS	Ftpcomd.h	97;"	d
+FTP_TRANSFEROK	Ftpcomd.h	78;"	d
+FTP_TYPEOK	Ftpcomd.h	55;"	d
+FTP_UMASKOK	Ftpcomd.h	58;"	d
+FTP_UPLOADFAIL	Ftpcomd.h	123;"	d
+Filedownup	Ftpcomd.h	/^} Filedownup;$/;"	t	typeref:struct:_FILESTATA
+Ftp_restart	Service.c	/^void Ftp_restart(char *argv)$/;"	f
+Ftp_start	Service.c	/^void Ftp_start(char *argv)$/;"	f
+Ftp_stop	Service.c	/^void Ftp_stop(char *argv)$/;"	f
+GetComd	Ftpcomd.c	/^void GetComd(int sockd,char cmd[7],char message[256])\/\/È¡³öÃüÁîºÍĞÅÏ¢$/;"	f
+GetPart	Config.c	/^int GetPart(char str1[100],char t[100],int len)$/;"	f
+GetPartStr	GetPartString.c	/^int GetPartStr(char str[7],char buff[512],int l)\/\/´Ó±ê×¼Êä³öÖĞ·ÖÀë³öÃ¿¸ö½ø³ÌµÄid$/;"	f
+Getcurrentdir	Ftpcomd.c	/^void Getcurrentdir(char dir[512])\/\/»ñµÃµ±Ç°Â·¾¶$/;"	f
+Getid	GetPartString.c	/^void Getid(char str[50][8],char buff[512])\/\/½«idĞòÁĞ´æ´¢ÆğÀ´$/;"	f
+KillPid	Service.c	/^void KillPid(char pid[8])$/;"	f
+PASV	Ftpcomd.h	52;"	d
+PORT	Ftpcomd.h	51;"	d
+Print	Service.c	/^void Print(char buff[512],int time)$/;"	f
+ReadConfig	Config.c	/^int ReadConfig(char filename[100])$/;"	f
+ReadInfo	Service.c	/^char *ReadInfo(char *argv)$/;"	f
+STATUS	Ftpcomd.h	/^} STATUS;$/;"	t	typeref:struct:_STAT
+Sentcomd	Ftpcomd.c	/^void Sentcomd(int comd_id,int sfd,char com_msg[512])\/\/Ïò¿Í·ş¶Ë·¢ËÍĞÅÏ¢$/;"	f
+Service	Service.c	/^int Service()$/;"	f
+Trancetosmall	FtpLogin.c	/^void Trancetosmall(char *str)\/\/½«×Ö·û´®ÄÚµÄ×ÖÄ¸È«²¿×ª»»ÎªĞ¡Ğ´$/;"	f
+Ttancetobig	FtpLogin.c	/^void Ttancetobig(char *str)\/\/½«×Ö·û´®ÄÚµÄ×ÖÄ¸È«²¿×ª»»Îª´óĞ´$/;"	f
+_CONFIG	Config.h	/^typedef struct _CONFIG$/;"	s
+_CONFIG_H_	Config.h	2;"	d
+_FILEMANAGE_H_	FileManage.h	2;"	d
+_FILESTATA	Ftpcomd.h	/^typedef struct _FILESTATA$/;"	s
+_FTPCMD	Ftpcomd.h	/^typedef struct _FTPCMD$/;"	s
+_FTPCOMD_	Ftpcomd.h	2;"	d
+_FTPLOGIN_H_	FtpLogin.h	2;"	d
+_FTP_CONFIG	Config.h	/^}_FTP_CONFIG;$/;"	t	typeref:struct:_CONFIG
+_GETPARTSTRING_H_	GetPartString.h	2;"	d
+_SERVICE_H_	Service.h	2;"	d
+_SOCKET_H_	Socket.h	2;"	d
+_STAT	Ftpcomd.h	/^typedef struct _STAT$/;"	s
+__buf	FileManage.c	/^	struct seminfo *__buf;    $/;"	m	union:semun	typeref:struct:semun::seminfo	file:
+able_down	Config.h	/^	int able_down;\/\/ÊÇ·ñÖ§³ÖÏÂÔØ$/;"	m	struct:_CONFIG
+able_mkdir	Config.h	/^	int able_mkdir;\/\/ÊÇ·ñÖ§³Ö´´½¨Ä¿Â¼$/;"	m	struct:_CONFIG
+able_up	Config.h	/^	int able_up;\/\/ÊÇ·ñÖ§³ÖÉÏ´«$/;"	m	struct:_CONFIG
+all_cmd	Ftpcomd.c	/^FTPCMD	all_cmd[] =$/;"	v
+array	FileManage.c	/^	unsigned short int *array;  $/;"	m	union:semun	file:
+bind_bort	Socket.c	/^int bind_bort(int port,int t)$/;"	f
+buf	FileManage.c	/^	struct semid_ds *buf;      $/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+check_anonymous	Ftpcomd.c	/^uid_t check_anonymous()$/;"	f
+check_ip_right	FtpLogin.c	/^int check_ip_right(char *ip_port)\/\/¼ì²éipÊÇ·ñÕıÈ·$/;"	f
+check_start	Service.c	/^int check_start(char *argv)$/;"	f
+check_user	Ftpcomd.c	/^uid_t check_user(char *username,char *password)$/;"	f
+checkmous	Ftpcomd.c	/^int checkmous=0;\/\/¼ì²éÊÇ·ñÊÇÄäÃûÓÃ»§µÇÈë$/;"	v
+client	Ftpcomd.h	/^	struct sockaddr_in client;$/;"	m	struct:_STAT	typeref:struct:_STAT::sockaddr_in
+command	Ftpcomd.h	/^	char *command;$/;"	m	struct:_FTPCMD
+creat_shm	FileManage.c	/^int creat_shm()\/\/åˆ›å»ºå…±äº«å†…å­˜$/;"	f
+ctrl_conn_sfd	Ftpcomd.h	/^	int ctrl_conn_sfd;		\/\/¿ØÖÆÁ¬½ÓFD$/;"	m	struct:_STAT
+data_conect_type	Ftpcomd.h	/^	int data_conect_type;	 \/\/Êı¾İÁ¬½ÓÀàĞÍ PORT PASV$/;"	m	struct:_STAT
+data_conn_pid	Ftpcomd.h	/^	pid_t data_conn_pid;	\/\/Êı¾İÁ¬½Ó½ø³ÌPID$/;"	m	struct:_STAT
+datasize	Ftpcomd.h	/^	int datasize;\/\/´æ·ÅÌ×½Ó×ÖÄÚÊı¾İ×Ö½Ú$/;"	m	struct:_STAT
+do_abor	Ftpcomd.c	/^int do_abor(int sfd, char *msg)\/\/Òì³£µÄ´¦Àí$/;"	f
+do_appe	Ftpcomd.c	/^int do_appe(int sfd, char *path)$/;"	f
+do_cdup	Ftpcomd.c	/^int do_cdup(int sfd, char *path)\/\/·µ»ØÉÏÒ»¼¶Ä¿Â¼$/;"	f
+do_chmod	Ftpcomd.c	/^int do_chmod(int sfd,char *msg)\/\/¸Ä±äÎÄ¼ş¼ĞµÄÈ¨ÏŞ$/;"	f
+do_cmd	Ftpcomd.h	/^	int (*do_cmd) (int,char s[512]);$/;"	m	struct:_FTPCMD
+do_cwd	Ftpcomd.c	/^int do_cwd(int sfd, char target_dir[512])\/\/¶Ô¹¤×÷Ä¿Â¼½øĞĞ¸Ä±ä$/;"	f
+do_dele	Ftpcomd.c	/^int do_dele(int sfd, char *path)\/\/É¾³ıÎÄ¼ş$/;"	f
+do_help	Ftpcomd.c	/^int do_help(int socked,char *ifor)\/\/»ñµÃ°ïÖú$/;"	f
+do_list	Ftpcomd.c	/^int do_list(int sfd,char cmd[9])\/\/ÁĞ³öÄ¿Â¼Çåµ¥£¬¶ÌÄ¿Â¼£¬»òÏêÏ¸Ä¿Â¼$/;"	f
+do_mkd	Ftpcomd.c	/^int do_mkd(int sfd, char *path)\/\/´´½¨Ä¿Â¼$/;"	f
+do_mode	Ftpcomd.c	/^int do_mode(int sfd, char *msg)$/;"	f
+do_noop	Ftpcomd.c	/^int do_noop(int sfd, char *msg)$/;"	f
+do_pasd	Ftpcomd.c	/^int do_pasd(int sfd, char *password)\/\/ÃÜÂëÑéÖ¤ºÍµÇÈë$/;"	f
+do_pasv	Ftpcomd.c	/^int do_pasv(int sfd,char ifo[512])\/\/±»¶¯Á¬½ÓµÄ´¦Àí$/;"	f
+do_port	Ftpcomd.c	/^int do_port(int sfd, char mode[512])\/\/Ö÷¶¯Á¬½ÓµÄ´¦Àí$/;"	f
+do_pwd	Ftpcomd.c	/^int do_pwd(int sfd, char arg[512])\/\/´òÓ¡µ«Ç°Â·¾¶$/;"	f
+do_quit	Ftpcomd.c	/^int do_quit(int sfd, char *msg)\/\/ÍË³öftpµÄ´¦Àí$/;"	f
+do_rein	Ftpcomd.c	/^int do_rein(int sfd, char *msg)\/\/ÖØÖÃÄÜ¹»ÈÃÓÃ»§ÖØĞÂµÇÈë$/;"	f
+do_rest	Ftpcomd.c	/^int do_rest(int sfd, char* offset)\/\/¶ÏµãĞø´«$/;"	f
+do_retr	Ftpcomd.c	/^int do_retr(int sfd, char *path)\/\/ÎÄ¼şµÄÏÂÔØ$/;"	f
+do_rmd	Ftpcomd.c	/^int do_rmd(int sfd, char *path)\/\/É¾³ıÄ¿Â¼$/;"	f
+do_rnfr	Ftpcomd.c	/^int do_rnfr(int sfd, char *path)\/\/»ñµÃ½«ÒªÖØÃüÃûµÄÎÄ¼ş$/;"	f
+do_rnto	Ftpcomd.c	/^int do_rnto(int sfd, char *path)\/\/ÖØÃüÃûÎªÄ¿±êÎÄ¼ş$/;"	f
+do_size	Ftpcomd.c	/^int do_size(int sfd, char *path)\/\/Í³¼ÆÄ¿±êÎÄ¼şµÄ´óĞ¡$/;"	f
+do_stat	Ftpcomd.c	/^int do_stat(int sfd, char *msg)\/\/Í³¼ÆÉÏ´«»òÏÂÔØµÄÎÄ¼şÊıºÍ×Ö½ÚÊı$/;"	f
+do_stor	Ftpcomd.c	/^int do_stor(int sfd, char *path)\/\/ÎÄ¼şµÄÉÏ´«$/;"	f
+do_syst	Ftpcomd.c	/^int do_syst(int sfd, char arg[512])\/\/»ñµÃÏµÍ³ÀàĞÍ$/;"	f
+do_type	Ftpcomd.c	/^int do_type(int sfd, char mode[512])\/\/ÎÄ¼ş´«ÊäÀàĞÍµÄ×ª»»$/;"	f
+do_user	Ftpcomd.c	/^int do_user(int sfd, char *username)\/\/ÓÃ»§»ñµÃ²¢·¢ËÍĞÅÏ¢$/;"	f
+down_rate	Config.h	/^	int down_rate;\/\/ÔÚmaxlenÒ»¶¨ÏÂµÄÏÂÔØÔØËÙ¶È$/;"	m	struct:_CONFIG
+download	FileManage.c	/^void download(int sfd, char *file)$/;"	f
+download_byte	Ftpcomd.h	/^	size_t download_byte;\/\/ÏÂÔØµÄ×Ü¹²×Ö½ÚÊı$/;"	m	struct:_FILESTATA
+download_count	Ftpcomd.h	/^	int download_count;\/\/ÏÂÔØµÄÍ³¼ÆÎÄ¼şÊı$/;"	m	struct:_FILESTATA
+ftp_cfg	Config.h	/^_FTP_CONFIG ftp_cfg;$/;"	v
+get_shm	FileManage.c	/^void *get_shm(int shm_id)\/\/è·å¾—å…±äº«å†…å­˜åœ°å€$/;"	f
+gid	Ftpcomd.h	/^	gid_t gid;		\/\/gid$/;"	m	struct:_STAT
+global_status	Ftpcomd.c	/^STATUS global_status;$/;"	v
+init_semval	FileManage.c	/^void init_semval(int sem_id)\/\/åˆå§‹åŒ–ä¿¡å·é‡$/;"	f
+list_file	FileManage.c	/^int list_file(int sod)$/;"	f
+login_flag	Ftpcomd.h	/^	int login_flag;	\/\/µÇÂ½±êÖ¾$/;"	m	struct:_STAT
+main	main.c	/^int main(int argc ,char *argv[])$/;"	f
+maxclient	Config.h	/^	int maxclient;\/\/Á¬½ÓµÄ¿Í»§ÊıÁ¿$/;"	m	struct:_CONFIG
+maxlen	Config.h	/^	int maxlen;\/\/readº¯Êı´ÓÌ×½Ó×ÖÖĞÒ»´ÎĞÔ¶ÁÈ¡µÄ×î´ó×Ö½Ú$/;"	m	struct:_CONFIG
+net_bind	Socket.c	/^int net_bind(int sfd, const char *ip_address, unsigned short port)$/;"	f
+net_connect	Socket.c	/^int net_connect(int sfd, const char *ip_address, unsigned short port)$/;"	f
+net_listen	Socket.c	/^int net_listen(int sockfd,int maxclient)$/;"	f
+pasv_init	Socket.c	/^int pasv_init(int service_socket,char pasv_ip[512],unsigned short pasv_port)$/;"	f
+pasv_sfd	Ftpcomd.h	/^	int pasv_sfd;		\/\/PASV¼àÌıFD$/;"	m	struct:_STAT
+port	Config.h	/^	int port;\/\/·şÎñÆ÷µÄ¶Ë¿ÚºÅ$/;"	m	struct:_CONFIG
+port_connect	Socket.c	/^int port_connect()$/;"	f
+port_ip	Ftpcomd.h	/^	char port_ip[16];		\/\/IPµØÖ·£¨PORTÔ¶¶Ë£¬PASV±¾µØ£©$/;"	m	struct:_STAT
+port_port	Ftpcomd.h	/^	unsigned short port_port;	 \/\/¶Ë¿Ú£¨PORTÔ¶¶Ë£¬PASV±¾µØ£©$/;"	m	struct:_STAT
+port_sfd	Ftpcomd.h	/^	int port_sfd;$/;"	m	struct:_STAT
+pwd	Ftpcomd.h	/^	char pwd[24];  \/\/ÃÜÂë$/;"	m	struct:_STAT
+read_ifor	Socket.c	/^int read_ifor(int fd,int k,char ifon[512])$/;"	f
+read_socket	Socket.c	/^int read_socket(int fd,char buffer[512],int msize)$/;"	f
+recv_peek	Socket.c	/^int  recv_peek(int fd)$/;"	f
+renamefile	Ftpcomd.h	/^	char renamefile[128]; \/\/ÖØÃüÃûÄ¿±êÎÄ¼şÃû$/;"	m	struct:_STAT
+rest_offset	Ftpcomd.h	/^	size_t rest_offset;	\/\/ÉÏ´«ÏÂÔØÆ«ÒÆÁ¿$/;"	m	struct:_STAT
+root_dir	Ftpcomd.h	/^	char root_dir[48];	\/\/ÓÃ»§¸ùÄ¿Â¼$/;"	m	struct:_STAT
+sem_create	FileManage.c	/^int  sem_create()\/\/åˆ›å»ºä¿¡å·é‡$/;"	f
+sem_id	Ftpcomd.h	/^	int sem_id;			\/\/ĞÅºÅÁ¿ID$/;"	m	struct:_STAT
+sem_p	FileManage.c	/^void sem_p(int sd)\/\/è¿›è¡Œpæ“ä½œ$/;"	f
+sem_v	FileManage.c	/^void sem_v(int sd)\/\/è¿›è¡Œvæ“ä½œ$/;"	f
+semun	FileManage.c	/^union semun\/\/ä¿¡å·é‡ç»“æ„ä½“ã€å‚¨å­˜ä¿¡å·é‡ä¿¡æ¯$/;"	u	file:
+sevice_sockd	Ftpcomd.h	/^	int sevice_sockd;$/;"	m	struct:_STAT
+shm_id	Ftpcomd.h	/^	int shm_id; \/\/¹²ÏíÄÚ´æID$/;"	m	struct:_STAT
+time_late	Config.h	/^	int time_late;\/\/ÑÓÊ±µÄÊ±¼ä$/;"	m	struct:_CONFIG
+timeout	Ftpcomd.c	/^int  timeout(int sd,int sec)\/\/³¬Ê±²Ù×÷$/;"	f
+trace_ip_port	FtpLogin.c	/^unsigned short  trace_ip_port(char *source, char *ip_address)\/\/port Ä£Ê½ÏÂ×ª»»ipµØÖ·ºÍ¶Ë¿ÚºÅ$/;"	f
+trace_pasv_ip	FtpLogin.c	/^int trace_pasv_ip(char *dest, char *ip_address,unsigned short port)\/\/pasvÄ£Ê½ÏÂ×ª»»ipµØÖ·ºÍ¶Ë¿ÚºÅ$/;"	f
+uid	Ftpcomd.h	/^	uid_t uid;		\/\/uid$/;"	m	struct:_STAT
+up_rate	Config.h	/^	int up_rate;\/\/ÔÚmaxlenÈ·¶¨ÏÂµÄÉÏ´«ËÙ¶È$/;"	m	struct:_CONFIG
+upload	FileManage.c	/^void upload(int sfd, char *file, int mode)$/;"	f
+upload_byte	Ftpcomd.h	/^	size_t upload_byte;\/\/ÉÏ´«µÄ×Ü¹²×Ö½ÚÊı$/;"	m	struct:_FILESTATA
+upload_count	Ftpcomd.h	/^	int upload_count;\/\/ÉÏ´«µÄÍ³¼ÆÎÄ¼şÊı$/;"	m	struct:_FILESTATA
+user	Ftpcomd.h	/^	char user[24];	 \/\/ÓÃ»§Ãû$/;"	m	struct:_STAT
+val	FileManage.c	/^	int val;                  $/;"	m	union:semun	file:
+write_socket	Socket.c	/^int write_socket(int fd,char *buffer,int msize)$/;"	f

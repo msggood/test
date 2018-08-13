@@ -1,0 +1,1 @@
+cmd_/home/msg/hi3516a/driver/rtc/hi_rtc.ko := arm-hisiv300-linux-ld -EL -r  -T /home/msg/linux-3.4.y/scripts/module-common.lds --build-id  -o /home/msg/hi3516a/driver/rtc/hi_rtc.ko /home/msg/hi3516a/driver/rtc/hi_rtc.o /home/msg/hi3516a/driver/rtc/hi_rtc.mod.o
